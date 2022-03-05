@@ -36,6 +36,7 @@ namespace Calculator
             this.txtB = new System.Windows.Forms.TextBox();
             this.txtA = new System.Windows.Forms.TextBox();
             this.btnCong = new System.Windows.Forms.Button();
+            this.btnTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -98,11 +99,24 @@ namespace Calculator
             this.btnCong.UseVisualStyleBackColor = false;
             this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
+            // btnTru
+            // 
+            this.btnTru.BackColor = System.Drawing.Color.LightGray;
+            this.btnTru.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnTru.Location = new System.Drawing.Point(169, 243);
+            this.btnTru.Name = "btnTru";
+            this.btnTru.Size = new System.Drawing.Size(87, 39);
+            this.btnTru.TabIndex = 2;
+            this.btnTru.Text = "Trừ";
+            this.btnTru.UseVisualStyleBackColor = false;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(391, 306);
+            this.Controls.Add(this.btnTru);
             this.Controls.Add(this.btnCong);
             this.Controls.Add(this.txtA);
             this.Controls.Add(this.txtB);
@@ -128,6 +142,7 @@ namespace Calculator
         private System.Windows.Forms.TextBox txtB;
         private System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.Button btnCong;
+        private System.Windows.Forms.Button btnTru;
     }
 }
 
