@@ -91,9 +91,9 @@ namespace Calculator
             // 
             this.btnCong.BackColor = System.Drawing.Color.LightGray;
             this.btnCong.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnCong.Location = new System.Drawing.Point(262, 243);
+            this.btnCong.Location = new System.Drawing.Point(262, 228);
             this.btnCong.Name = "btnCong";
-            this.btnCong.Size = new System.Drawing.Size(87, 51);
+            this.btnCong.Size = new System.Drawing.Size(87, 66);
             this.btnCong.TabIndex = 2;
             this.btnCong.Text = "Cộng";
             this.btnCong.UseVisualStyleBackColor = false;
@@ -103,9 +103,9 @@ namespace Calculator
             // 
             this.btnTru.BackColor = System.Drawing.Color.LightGray;
             this.btnTru.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnTru.Location = new System.Drawing.Point(169, 243);
+            this.btnTru.Location = new System.Drawing.Point(169, 228);
             this.btnTru.Name = "btnTru";
-            this.btnTru.Size = new System.Drawing.Size(87, 51);
+            this.btnTru.Size = new System.Drawing.Size(87, 66);
             this.btnTru.TabIndex = 2;
             this.btnTru.Text = "Trừ";
             this.btnTru.UseVisualStyleBackColor = false;
