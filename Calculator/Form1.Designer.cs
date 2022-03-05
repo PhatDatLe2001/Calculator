@@ -35,7 +35,7 @@ namespace Calculator
             this.txtKetQua = new System.Windows.Forms.TextBox();
             this.txtB = new System.Windows.Forms.TextBox();
             this.txtA = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCong = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -86,23 +86,24 @@ namespace Calculator
             this.txtA.Size = new System.Drawing.Size(203, 34);
             this.txtA.TabIndex = 1;
             // 
-            // button1
+            // btnCong
             // 
-            this.button1.BackColor = System.Drawing.Color.LightGray;
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(262, 243);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 39);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Cộng";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCong.BackColor = System.Drawing.Color.LightGray;
+            this.btnCong.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnCong.Location = new System.Drawing.Point(262, 243);
+            this.btnCong.Name = "btnCong";
+            this.btnCong.Size = new System.Drawing.Size(87, 39);
+            this.btnCong.TabIndex = 2;
+            this.btnCong.Text = "Cộng";
+            this.btnCong.UseVisualStyleBackColor = false;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(391, 306);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCong);
             this.Controls.Add(this.txtA);
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.txtKetQua);
@@ -110,7 +111,7 @@ namespace Calculator
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -126,7 +127,7 @@ namespace Calculator
         private System.Windows.Forms.TextBox txtKetQua;
         private System.Windows.Forms.TextBox txtB;
         private System.Windows.Forms.TextBox txtA;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCong;
     }
 }
 
